@@ -1,11 +1,13 @@
-configfile = "~/.epitarendu.config"
+import os
+
+configfile = os.getenv("HOME") + "/.epitarendu.config"
 configfilebundary = " = "
 defaultconfigfile = "login = prenom.nom\nworkdirectory = ~/epita_tp"
 
 
 authorsfilename = "AUTHORS"
 readmefilename = "README"
-readmetemplate = "\n\nyour text"
+readmetemplate = "\nyour text\n"
 
 workingdirectoryname = "WorkDir"
 directorynameprefix = "TP"
