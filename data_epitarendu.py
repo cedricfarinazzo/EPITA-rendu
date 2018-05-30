@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
+
 import os
 
 configfile = os.getenv("HOME") + "/.epitarendu.config"
 configfilebundary = " = "
-defaultconfigfile = "login = prenom.nom\nworkdirectory = ~/epita_tp"
+defaultconfigfile = "login = firstname.name\nworkdirectory = ~/epita_tp"
 
 
 authorsfilename = "AUTHORS"
