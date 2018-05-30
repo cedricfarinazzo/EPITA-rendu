@@ -40,7 +40,7 @@ def config():
         config.login = d
         print("Update login: " + d)
         up = True
-    if key == "dir":
+    if key == "directory":
         config.workdirectory = d
         print("Update directory: " + d)
         up = True
